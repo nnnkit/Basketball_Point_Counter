@@ -75,8 +75,8 @@ public class MainActivity extends AppCompatActivity {
 
     //Reset the score to 0 when RESET button is pressed
     public void resetButton(View v){
-        scoreTeamB=0;
         scoreTeamA=0;
+        scoreTeamB=0;
         displayForTeamB(scoreTeamB);
         displayForTeamA(scoreTeamA);
     }
